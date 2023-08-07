@@ -1,30 +1,24 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
-import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
-
 import Home from './components/Home/Home.js';
+import Languages from './components/Languages/Languages';
+import Experience from './components/Experience/Experience';
+import NavBar from './components/NavBar/NavBar';
+import * as React from 'react';
+import { Routes, Route } from 'react-router-dom';
+
 
 function App() {
   return (
-    <Router>
-      <AppBar position="static">
-        <Toolbar>
-          <Typography variant="h6">
-            <Link to="/">Dominic Busacca</Link>
-            <Link to="/">Dominic Busacca</Link>
-          </Typography>
-        </Toolbar>
-      </AppBar>
+    <>
+      <NavBar>
+      </NavBar>
+
       <Routes>
-        <Route path='/' element={<Home/>} />
+        <Route exact path='/' element={<Home/>} />
+        <Route exact path='/Languages' element={<Languages/>} />
+        <Route exact path='/Experience' element={<Experience/>} />
       </Routes>
-    </Router>
+    </>
   );
 }
 
