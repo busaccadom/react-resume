@@ -18,7 +18,7 @@ export default function HomePage() {
                   </Typography>
                   <Typography variant="body2">
                      <i>
-                        Skilled Senior Software Engineer with over nine years of in depth experience in software development and a track record of successful projects as a technical lead. Passionate in driving innovative and high quality software solutions. Looking for new and exciting opportunities in software devlepment.
+                        Skilled Senior Software Engineer with over nine years of in depth experience in software development and a track record of successful projects as a technical lead. Passionate in driving innovative and high quality software solutions. Looking for new and exciting opportunities in software development.
                      </i>
                      <br />
                   </Typography>

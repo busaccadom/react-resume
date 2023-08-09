@@ -87,7 +87,7 @@ export default function Experience() {
                         </ListItem>
 
                         <ListItem>
-                           Implemented CI/CD pipelines for OnPrem and AWS Cloud Applications/infrastructure that included building projects, unit/automated testing,  and deployment using Terraform, Docker, ADS (formerly TFS), builds/releases, and Circle Ci.
+                           Implemented CI/CD pipelines for OnPrem and AWS Cloud Applications/infrastructure that included building projects, unit/automated testing,  and deployment using Terraform, Docker, ADS (formerly TFS), builds/releases, and CircleCi.
                         </ListItem>
 
                         <ListItem>

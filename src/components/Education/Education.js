@@ -8,7 +8,7 @@ export default function Education() {
       <CardContent>
         <Box m={1.2} pt={.1}>
             <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-              Bachloer of Science, Computer Science
+              Bachelor of Science, Computer Science
             </Typography>
             <Typography variant="h5" component="div">
               Bowling Green State University
