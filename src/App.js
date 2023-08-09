@@ -102,7 +102,7 @@ export default function App() {
                 <ListItemIcon>
                   <Bookmark />
                 </ListItemIcon>
-                <ListItemText primary='Eductation' />
+                <ListItemText primary='Education' />
               </ListItemButton>
             </ListItem>
 
