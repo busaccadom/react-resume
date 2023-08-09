@@ -10,5 +10,7 @@
       "withStory": true,
       "withLazy": true
     }
-  }
+  },
+  "usesCssModule": true,
+  "cssPreprocessor": "css"
 }

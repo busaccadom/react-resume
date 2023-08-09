@@ -13,12 +13,16 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import { Routes, Route } from 'react-router-dom';
-import Languages from './components/Languages/Languages';
-import Experience from './components/Experience/Experience'
+
 import AdbIcon from '@mui/icons-material/Adb';
 import HomePage from './components/HomePage/HomePage';
-import { HomeWork } from '@mui/icons-material';
-import { History } from '@mui/icons-material';
+import { DataObject, HomeWork, History, Language, Bookmark, ContactPage } from '@mui/icons-material';
+
+import Experience from './components/Experience/Experience';
+import Skills from './components/Skills/Skills';
+import Languages from './components/Languages/Languages';
+import Education from './components/Education/Education'
+import ContactMe from './components/ContactMe/ContactMe'
 
 const drawerWidth = 240;
 
@@ -76,7 +80,44 @@ export default function App() {
                 <ListItemText primary='Experience' />
               </ListItemButton>
             </ListItem>
-          </List>
+
+            <ListItem key='Languages' disablePadding>
+              <ListItemButton component="a" href="/Languages">
+                <ListItemIcon>
+                  <DataObject />
+                </ListItemIcon>
+                <ListItemText primary='Languages' />
+              </ListItemButton>
+            </ListItem>
+          
+            <ListItem key='Skills' disablePadding>
+              <ListItemButton component="a" href="/Skills">
+                <ListItemIcon>
+                  <Language />
+                </ListItemIcon>
+                <ListItemText primary='Skills' />
+              </ListItemButton>
+            </ListItem>
+          
+            <ListItem key='Education' disablePadding>
+              <ListItemButton component="a" href="/Education">
+                <ListItemIcon>
+                  <Bookmark />
+                </ListItemIcon>
+                <ListItemText primary='Eductation' />
+              </ListItemButton>
+            </ListItem>
+
+            <ListItem key='ContactMe' disablePadding>
+              <ListItemButton component="a" href="/Contact">
+                <ListItemIcon>
+                  <ContactPage />
+                </ListItemIcon>
+                <ListItemText primary='Contact' />
+              </ListItemButton>
+            </ListItem>
+
+          </List>          
         </Box>
       </Drawer>
 
@@ -88,6 +129,9 @@ export default function App() {
                 <Route exact path='/' element={<HomePage/>} />
                 <Route exact path='/Languages' element={<Languages/>} />
                 <Route exact path='/Experience' element={<Experience/>} />
+                <Route exact path='/Skills' element={<Skills/>} />
+                <Route exact path='/Education' element={<Education/>} />
+                <Route exact path='/Contact' element={<ContactMe/>} />
               </Routes>
             </Box>
           </Grid>
