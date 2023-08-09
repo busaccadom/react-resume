@@ -73,7 +73,7 @@ export default function App() {
             </ListItem>
 
             <ListItem key='Experience' disablePadding>
-              <ListItemButton component="a" href="/Experience">
+              <ListItemButton component="a" href="#/Experience">
                 <ListItemIcon>
                   <History />
                 </ListItemIcon>
@@ -82,7 +82,7 @@ export default function App() {
             </ListItem>
 
             <ListItem key='Languages' disablePadding>
-              <ListItemButton component="a" href="/Languages">
+              <ListItemButton component="a" href="#/Languages">
                 <ListItemIcon>
                   <DataObject />
                 </ListItemIcon>
@@ -91,7 +91,7 @@ export default function App() {
             </ListItem>
           
             <ListItem key='Skills' disablePadding>
-              <ListItemButton component="a" href="/Skills">
+              <ListItemButton component="a" href="#/Skills">
                 <ListItemIcon>
                   <Language />
                 </ListItemIcon>
@@ -100,7 +100,7 @@ export default function App() {
             </ListItem>
           
             <ListItem key='Education' disablePadding>
-              <ListItemButton component="a" href="/Education">
+              <ListItemButton component="a" href="#/Education">
                 <ListItemIcon>
                   <Bookmark />
                 </ListItemIcon>
@@ -109,7 +109,7 @@ export default function App() {
             </ListItem>
 
             <ListItem key='ContactMe' disablePadding>
-              <ListItemButton component="a" href="/Contact">
+              <ListItemButton component="a" href="#/Contact">
                 <ListItemIcon>
                   <ContactPage />
                 </ListItemIcon>
