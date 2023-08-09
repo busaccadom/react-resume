@@ -13,11 +13,9 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import { Routes, Route } from 'react-router-dom';
-
 import AdbIcon from '@mui/icons-material/Adb';
 import HomePage from './components/HomePage/HomePage';
 import { DataObject, HomeWork, History, Language, Bookmark, ContactPage } from '@mui/icons-material';
-
 import Experience from './components/Experience/Experience';
 import Skills from './components/Skills/Skills';
 import Languages from './components/Languages/Languages';
@@ -64,7 +62,7 @@ export default function App() {
         <Box sx={{ overflow: 'auto' }}>
           <List>
             <ListItem key='Home' disablePadding>
-              <ListItemButton component="a" href="/">
+              <ListItemButton component="a" href="#/Home">
                 <ListItemIcon>
                   <HomeWork />
                 </ListItemIcon>
@@ -127,6 +125,7 @@ export default function App() {
             <Box p={3} m={3} pt={5}>
               <Routes>
                 <Route exact path='/' element={<HomePage/>} />
+                <Route exact path='/Home' element={<HomePage/>} />
                 <Route exact path='/Languages' element={<Languages/>} />
                 <Route exact path='/Experience' element={<Experience/>} />
                 <Route exact path='/Skills' element={<Skills/>} />
