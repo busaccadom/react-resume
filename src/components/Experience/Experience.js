@@ -14,7 +14,7 @@ export default function Experience() {
                      Senior Software Engineer II
                   </Typography>
                   <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                     December 2020 - Current
+                     December 2020 - August 2023
                   </Typography>
                   <Typography variant="body2">
                      <List
