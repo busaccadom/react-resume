@@ -8,6 +8,59 @@ export default function Experience() {
             <CardContent>
                <Box m={1.2} pt={.1}>
                   <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                     ICE Mortgage Technology
+                  </Typography>
+                  <Typography variant="h5" component="div">
+                     Senior Software Engineer
+                  </Typography>
+                  <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                     September 2013 - Current
+                  </Typography>
+                  <Typography variant="body2">
+                     <List
+                     sx = {{
+                        listStyleType: 'disc',
+                        pl: 2,
+                        '& .MuiListItem-root': {
+                        display: 'list-item',
+                        },
+                     }}>
+                        <ListItem>
+                           Technical Leader on a project team of 9-10 engineers.
+                        </ListItem>
+
+                        <ListItem>
+                           Mentor junior to intern level developers on updates and implementation to the core functionality of our application.
+                        </ListItem>
+
+                        <ListItem>
+                           Interview potential candidates for senior level software engineers.
+                        </ListItem>
+
+                        <ListItem>
+                           Create Java Spring Boot APIs for executing mortgage servicing business logic.
+                        </ListItem>
+
+                        <ListItem>
+                           Designed and Implemented an initial Kafka implementation in one of our services to exectute background scheduled async processes.
+                        </ListItem>
+
+                        <ListItem>
+                           Published additional functionality to our build and deployment pipelines to support our full slice MFE development lifecycle.
+                        </ListItem>
+                     </List>
+                     <br />
+                  </Typography>
+               </Box>
+            </CardContent>
+         </Card>
+
+         <br/>
+
+         <Card sx={{ minWidth: 275 }}>
+            <CardContent>
+               <Box m={1.2} pt={.1}>
+                  <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
                      Rocket Mortgage
                   </Typography>
                   <Typography variant="h5" component="div">

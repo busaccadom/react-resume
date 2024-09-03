@@ -28,6 +28,10 @@ export default function Languages() {
                      </ListItem>
 
                      <ListItem>
+                        Java
+                     </ListItem>
+
+                     <ListItem>
                         Typescript
                      </ListItem>
 

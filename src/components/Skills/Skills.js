@@ -32,19 +32,19 @@ export default function Skills() {
                 </ListItem>
 
                 <ListItem>
-                  Front-End Development(Angular, AngularJs, ReactJs)
+                  Front-End Development(Angular, AngularJs, React, ReactJs)
                 </ListItem>
 
                 <ListItem>
-                  Back-End Development(.NET)
+                  Back-End Development(.NET, Java)
                 </ListItem>
 
                 <ListItem>
-                  Database Development(AWS RDS(Mysql), Sql, MongoDB, DynamoDB)
+                  Database Development(AWS RDS(Mysql), Sql, MongoDB, DynamoDB, Postgres)
                 </ListItem>
 
                 <ListItem>
-                  AWS Services(Lambda, S3 with cloudfront, SNS, SQS, Cloudwatch, ECS Clusters, Kubernetes Clusters, EC2)
+                  AWS Services(Kubernetes, Kafka, Lambda, S3 with cloudfront, SNS, SQS, Cloudwatch, ECS Clusters, Kubernetes Clusters, EC2)
                 </ListItem>                     
                 
                 <ListItem>
@@ -52,19 +52,19 @@ export default function Skills() {
                 </ListItem>                    
                 
                 <ListItem>
-                  CI/CD Pipelines(CircleCi, Jenkins, TFS Pipelines)
+                  CI/CD Pipelines(CircleCi, Jenkins, TFS Pipelines, ADO pipelines)
                 </ListItem>
 
                 <ListItem>
-                  Unit Testing(xunit, MSTest, jasmine)
+                  Unit Testing(xunit, MSTest, Jasmine, JUnit)
                 </ListItem>
 
                 <ListItem>
-                  UI Automated Testing(Selenium, Quick Test Professional)
+                  UI Automated Testing(Playwright, Selenium, Quick Test Professional)
                 </ListItem>
 
                 <ListItem>
-                  API Automated Testing(xunit, postman newman, SoapUI)
+                  API Automated Testing(xunit, Postman Newman, SoapUI, Intellij Http Extension)
                 </ListItem>
 
                 <ListItem>
