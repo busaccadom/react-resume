@@ -42,7 +42,11 @@ export default function Experience() {
                         </ListItem>
 
                         <ListItem>
-                           Designed and Implemented an initial Kafka implementation in one of our services to exectute background scheduled async processes.
+                           Add mortgage servicing technology business function through our core front end website using React.
+                        </ListItem>
+
+                        <ListItem>
+                           Designed and Implemented an initial Kafka implementation in one of our services to execute background scheduled async processes.
                         </ListItem>
 
                         <ListItem>
